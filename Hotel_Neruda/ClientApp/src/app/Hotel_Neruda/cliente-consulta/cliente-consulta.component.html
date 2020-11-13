@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-6">
-        <input [(ngModel)]="searchText" type="text" class="formcontrol" placeholder="Type to filter">
+        <input [(ngModel)]="searchText" type="text" class="form-control" placeholder="Type to filter">
     </div>
 </div>
 <hr>
@@ -9,32 +9,28 @@
         <tr>
             <th scope="col">#</th>
             <th scope="col">Identificación</th>
-            <th scope="col">PrimerNombre </th>
-            <th scope="col">SegundoNombre</th>
-            <th scope="col">PrimerApellido</th>
-            <th scope="col">SegundoApellido</th>
-            <th scope="col">Edad</th>
-            <th scope="col">Genero</th>
+            <th scope="col">Tipo Identificacion </th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
             <th scope="col">Telefono</th>
-            <th scope="col">Gmail</th>
-            <th scope="col">Direccion</th>
+            <th scope="col">Pais</th>
+            <th scope="col">Departamento</th>
             <th scope="col">Ciudad</th>
+            <th scope="col">Direccion</th>
         </tr>
     </thead>
     <tbody>
         <tr *ngFor="let cliente of clientes; index as i ">
             <th scope="row">{{ i + 1 }}</th>
             <td>{{ cliente.identificacion }} </td>
+            <td>{{ cliente.tipoIdentificacion }}</td>
             <td>{{ cliente.primerNombre }}</td>
-            <td>{{cliente.segundoNombre }}</td>
             <td>{{ cliente.primerApellido }}</td>
-            <td>{{ cliente.segundoApellido }}</td>
-            <td>{{ cliente.edad}}</td>
-            <td>{{ cliente.genero }}</td>
-            <td>{{ cliente.telefono }}</td>
-            <td>{{ cliente.gmail }}</td>
-            <td>{{ cliente.direccion}}</td>
+            <td>{{ cliente.telefono}}</td>
+            <td>{{ cliente.pais }}</td>
+            <td>{{ cliente.departamento }}</td>
             <td>{{ cliente.ciudad }}</td>
+            <td>{{ cliente.direccion}}</td>
         </tr>
     </tbody>
 </table>

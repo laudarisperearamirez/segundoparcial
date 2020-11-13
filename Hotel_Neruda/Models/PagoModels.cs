@@ -7,8 +7,8 @@ namespace Hotel_Neruda.Models
         public string Codigo {get;set;}
         public string Tipo { get; set; } 
         public DateTime Fecha {get;set;}
-        public decimal Valorpago {get;set;}
-         public decimal Valoriva {get;set;}
+        public decimal ValorPago {get;set;}
+         public decimal ValorIva {get;set;}
          public string Identificacion { get; set; }
     }
      public class PagoViewModel : PagoInputModel{
@@ -21,8 +21,8 @@ namespace Hotel_Neruda.Models
             Codigo= pago.Codigo;
             Tipo=pago.Tipo;
             Fecha=pago.Fecha;
-            Valorpago=pago.Valorpago;
-            Valoriva=pago.Valoriva;
+            ValorIva=pago.ValorIva;
+            ValorPago=pago.ValorPago;
             Identificacion=pago.Identificacion;
         }
     }

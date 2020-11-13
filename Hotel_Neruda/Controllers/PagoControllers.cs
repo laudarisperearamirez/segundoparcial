@@ -51,8 +51,8 @@ namespace Hotel_Neruda.Controllers
             Codigo= pagoInput.Codigo,
             Tipo=pagoInput.Tipo,
             Fecha=pagoInput.Fecha,
-            Valorpago=pagoInput.Valorpago,
-            Valoriva=pagoInput.Valoriva,
+            ValorPago=pagoInput.ValorPago,
+            ValorIva=pagoInput.ValorIva,
             Identificacion=pagoInput.Identificacion,
                 
             };
