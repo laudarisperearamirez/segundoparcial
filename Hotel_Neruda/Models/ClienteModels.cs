@@ -3,17 +3,16 @@ namespace Hotel_Neruda.Models
 {
     public class ClienteInputModel
     {
-        public string identificacion { get; set; }
-        public string primerNombre { get; set; }
-        public string segundoNombre { get; set; }
-        public string  primerApellido { get; set; }
-        public string segundoApellido { get; set; }
-        public string edad { get; set; }
-        public string genero { get; set; }
-        public string telefono { get; set; }
-        public string gmail { get; set; }
-        public string direccion { get; set; }
-        public string ciudad { get; set; }
+       public string Identificacion { get; set; }
+        public string TipoIdentificacion { get; set; }
+        public string PrimerNombre { get; set; }
+        public string  PrimerApellido { get; set; }
+        
+        public string Departamento { get; set; }      
+        public string Telefono { get; set; }
+        public string Pais { get; set; }
+        public string Direccion { get; set; }
+        public string Ciudad { get; set; }
     }
     public class ClienteViewModel : ClienteInputModel
 
@@ -27,17 +26,15 @@ namespace Hotel_Neruda.Models
 
         public ClienteViewModel(Cliente cliente)
         {
-            identificacion = cliente.Identificacion;
-            primerNombre=cliente.PrimerNombre;
-            segundoNombre=cliente.SegundoNombre;
-            primerApellido=cliente.PrimerApellido;
-            segundoApellido=cliente.SegundoApellido;
-            edad=cliente.Edad;
-            genero=cliente.Genero;
-            telefono=cliente.Telefono;
-            gmail=cliente.Gmail;
-            direccion=cliente.Direccion;
-            ciudad=cliente.Ciudad;
+            Identificacion = cliente.Identificacion;
+            PrimerNombre=cliente.PrimerNombre;
+            PrimerApellido=cliente.PrimerApellido;
+            Telefono=cliente.Telefono;
+            TipoIdentificacion=cliente.Telefono;
+            Direccion=cliente.Direccion;
+            Departamento=cliente.Departamento;
+            Pais=cliente.Pais;
+            Ciudad=cliente.Ciudad;
 
         }
 

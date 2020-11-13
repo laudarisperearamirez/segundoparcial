@@ -9,6 +9,6 @@ namespace Datos
 
         }
         public DbSet<Cliente> Clientes { get; set; }
-        
+        public DbSet<Pago> Pago {get;set;}
    }
 }

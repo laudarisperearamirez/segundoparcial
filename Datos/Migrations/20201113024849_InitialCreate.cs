@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Datos.Migrations
 {
@@ -11,14 +12,12 @@ namespace Datos.Migrations
                 columns: table => new
                 {
                     Identificacion = table.Column<string>(nullable: false),
+                    TipoIdentificacion = table.Column<string>(nullable: true),
                     PrimerNombre = table.Column<string>(nullable: true),
-                    SegundoNombre = table.Column<string>(nullable: true),
                     PrimerApellido = table.Column<string>(nullable: true),
-                    SegundoApellido = table.Column<string>(nullable: true),
-                    Edad = table.Column<string>(nullable: true),
-                    Genero = table.Column<string>(nullable: true),
+                    Departamento = table.Column<string>(nullable: true),
                     Telefono = table.Column<string>(nullable: true),
-                    Gmail = table.Column<string>(nullable: true),
+                    Pais = table.Column<string>(nullable: true),
                     Direccion = table.Column<string>(nullable: true),
                     Ciudad = table.Column<string>(nullable: true)
                 },
@@ -26,12 +25,31 @@ namespace Datos.Migrations
                 {
                     table.PrimaryKey("PK_Clientes", x => x.Identificacion);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Pago",
+                columns: table => new
+                {
+                    Codigo = table.Column<string>(nullable: false),
+                    Tipo = table.Column<string>(nullable: true),
+                    Fecha = table.Column<DateTime>(nullable: false),
+                    Valorpago = table.Column<decimal>(nullable: false),
+                    Valoriva = table.Column<decimal>(nullable: false),
+                    Identificacion = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Pago", x => x.Codigo);
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
                 name: "Clientes");
+
+            migrationBuilder.DropTable(
+                name: "Pago");
         }
     }
 }

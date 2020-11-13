@@ -4,11 +4,13 @@ namespace Entidad
 {
     public class Pago
     { [Key]
-    public string codigo {get;set;}
-        public string tipo { get; set; } 
-        public  DateTime fecha {get;set;}
-        public decimal valorpago {get;set;}
-         public decimal valoriva {get;set;}
+    public string Codigo {get;set;}
+        public string Tipo { get; set; } 
+        public  DateTime Fecha {get;set;}
+        public decimal Valorpago {get;set;}
+         public decimal Valoriva {get;set;}
+         public string Identificacion { get; set; }
+         
 
     }
 }

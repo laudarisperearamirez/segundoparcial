@@ -16,13 +16,13 @@ namespace Logica
         public GuardarPagoResponse Guardar(Pago pago){
             try
             {
-                var pagoBuscar = _context.Pagos.Find(pago.codigo);
+                var pagoBuscar = _context.Pago.Find(pago.Codigo);
                 if(pagoBuscar != null){
-                    return new GuardarPagoResponse($"Error el pago {pago.codigo} ya se encuentra registrado");
+                    return new GuardarPagoResponse($"Error el pago {pago.Codigo} ya se encuentra registrado");
                 }
-                _context.Pagos.Add(pago);
+                _context.Pago.Add(pago);
                 _context.SaveChanges();
-                return new GuardarClienteResponse(pago);
+                return new GuardarPagoResponse(pago);
             }
             catch (Exception e)
             {
@@ -31,29 +31,12 @@ namespace Logica
             }
         }
         public List<Pago> ConsultarTodos(){
-            List<Pago> pagos=_context.Pagos.ToList();
+            List<Pago> pagos=_context.Pago.ToList();
             return pagos;
         }
-        public string Eliminar(string id){
-            try
-            {
-                var pago= _context.Pagos.Find(id);
-                if(pago != null){
-                    _context.Clientes.Remove(pago);
-                    _context.SaveChanges();
-                    return ($"El pago {pago.codigo} se ha eliminado exitosamente");
-                }else{
-                    return ($"Error, el pago con identificacion {pago.codigo} no existe");
-                }
-            }
-           catch (Exception e)
-            {
-                
-                return ($"Error de la Aplicacion: {e.Message}");
-            }
-        }
+        
         public Pago BuscarxIdentificacion(string id){
-            Pago pago= _context.Pagos.Find(id);
+            Pago pago= _context.Pago.Find(id);
             return pago;
         }
     }
@@ -79,7 +62,7 @@ namespace Logica
 
         public string Mensaje { get; set; }
 
-        public Pago pago { get; set; }
+        public Pago Pago { get; set; }
 
     }
 }

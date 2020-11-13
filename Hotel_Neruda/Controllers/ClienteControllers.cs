@@ -48,17 +48,15 @@ namespace Parcial2.Controllers
         {
             var  cliente = new Cliente
             {
-                Identificacion = clienteInput.identificacion,
-                PrimerNombre =  clienteInput.primerNombre,
-                SegundoNombre= clienteInput.segundoNombre,
-                PrimerApellido=clienteInput.primerApellido,
-                SegundoApellido=clienteInput.segundoApellido,
-                Edad=clienteInput.edad,
-                Genero=clienteInput.genero,
-                Gmail=clienteInput.gmail,
-                Telefono=clienteInput.telefono,
-                Direccion=clienteInput.direccion,
-                Ciudad=clienteInput.ciudad,
+                Identificacion = clienteInput.Identificacion,
+                PrimerNombre =  clienteInput.PrimerNombre,
+                PrimerApellido=clienteInput.PrimerApellido,
+                Telefono=clienteInput.Telefono,
+                Direccion=clienteInput.Direccion,
+                Ciudad=clienteInput.Ciudad,
+                Departamento = clienteInput.Departamento,
+                TipoIdentificacion = clienteInput.TipoIdentificacion,
+                Pais=clienteInput.Pais,
                 
             };
             return cliente;

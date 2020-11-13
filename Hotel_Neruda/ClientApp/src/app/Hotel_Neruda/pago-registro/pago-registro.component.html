@@ -1,1 +1,87 @@
-<p>pago-registro works!</p>
+<div class="container">
+    <div class="row">
+    
+    <div class="col-md-6 offset-md-3">
+    
+    <h2>Registro de Gastos</h2>
+    
+    <form [formGroup]="formGroup">
+
+        <div class="form-group">
+            <label for="idCompra" class="form-label">Codigo</label>
+            
+            <input type="text" name="codigo" formControlName="codigo" class="form-control"
+            [ngClass]="{ 'is-invalid':  control.codigo.errors }"/>
+            <div *ngIf=" control.codigo.errors" class="invalid-feedback">
+                <div class="mensaje-error" *ngIf="control.codigo.errors.required">*El Numero de codigo es requerida*</div>
+            </div>
+            
+        </div>
+    
+        <div class="form-group">
+            <label for="identificacion" class="form-label">Identificacion</label>
+            
+            <input id="identificacion" type="text" name="identificacion" formControlName="identificacion" class="form-control"
+            [ngClass]="{ 'is-invalid':  control.identificacion.errors }"/>
+            <div *ngIf=" control.identificacion.errors" class="invalid-feedback">
+                <div class="mensaje-error" *ngIf="control.identificacion.errors.required">*La Identificación es requerida*</div>
+            </div>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="BtnBuscar" (click)="buscarIde()">BUSCAR</button>
+              </div>
+        </div>
+    
+     <div class="form-group">
+    
+     <label>Servicio</label>
+    
+     <select id="combo" name="tipoPago" formControlName="tipoPago" class="form-control" 
+     [ngClass]="{ 'is-invalid':  control.tipoPago.errors }" > 
+     <option >Gastos Administrativos</option>
+     <option >Gastos Financieros</option>
+     <option >Gastos Legales</option>
+     <option > Gastos de
+        Viajes y transporte</option>     
+        <option > Honorarios</option> 
+        <option > Arrendamiento</option>
+        <option > Impuestos</option> 
+        <option > Retenciones</option>                  
+     </select>
+     <div *ngIf=" control.ruta.errors" class="invalid-feedback">
+        <div class="mensaje-error" *ngIf="control.tipoPago.errors.required">*El Tipo De Pago Es Requerido*</div>
+     </div>
+     </div>
+    <div class="form-group">
+        <label for="valorPago" class="form-label">Valo Pago</label>
+        
+        <input id="valorPago" type="text" name="valorPago" formControlName="valorPago" class="form-control"
+        [ngClass]="{ 'is-invalid':  control.valorPago.errors }"/>
+        <div *ngIf=" control.valorPago.errors" class="invalid-feedback">
+            <div class="mensaje-error" *ngIf="control.valorPago.errors.required">*El Valor a Pagar es requerido*</div>
+        </div>
+     </div>
+     <div class="form-group">
+        <label for="valorIva" class="form-label">Valo Iva</label>
+        
+        <input id="valorIva" type="text" name="valorIva" formControlName="valorIva" class="form-control"
+        [ngClass]="{ 'is-invalid':  control.valorIva.errors }"/>
+        <div *ngIf=" control.valorIva.errors" class="invalid-feedback">
+            <div class="mensaje-error" *ngIf="control.valorIva.errors.required">*El Valor del Iva es requerido*</div>
+        </div>
+     </div>
+     <div class="text-center">
+    
+     <button class="btn btn-primary mr-1"(click)="onSubmit()" [disabled]=
+     "formGroup.invalid">Registrar</button>
+    
+     <button class="btn btn-secondary" type="reset">Cancel</button>
+    
+    </div>
+    
+    </form>
+    
+    </div>
+    
+    </div>
+    
+    </div>

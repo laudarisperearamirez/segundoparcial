@@ -1,13 +1,11 @@
 export class Cliente {
     identificacion:string;
-    primerNombre:string;
-    segundoNombre:string;
+    tipoIdentificacion:string;
+    primerNombre:string;  
     primerApellido:string;
-    segundoApellido:string;
-    edad:string;
-    genero:string;
     telefono:string;
-    gmail:string;
+    pais:string;
+    departamento:string;
     direccion:string;
     ciudad:string;
   
