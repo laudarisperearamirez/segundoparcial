@@ -8,7 +8,7 @@
     <form [formGroup]="formGroup">
 
         <div class="form-group">
-            <label for="idCompra" class="form-label">Codigo</label>
+            <label for="codigo" class="form-label">Codigo</label>
             
             <input type="text" name="codigo" formControlName="codigo" class="form-control"
             [ngClass]="{ 'is-invalid':  control.codigo.errors }"/>
@@ -29,10 +29,7 @@
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="button" id="BtnBuscar" (click)="buscarIde()">BUSCAR</button>
               </div>
-              <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button"  >REGISTRAR CLIENTE</button>
-                
-              </div>
+              
         </div>
         <div class="form-group">
             <label for="fecha" class="form-label">Fecha </label>

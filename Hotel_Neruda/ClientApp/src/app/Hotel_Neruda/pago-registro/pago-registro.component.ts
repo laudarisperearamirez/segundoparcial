@@ -54,7 +54,9 @@ export class PagoRegistroComponent implements OnInit {
         this.pago = this.formGroup.value;
         this.pagoService.post(this.pago).subscribe(p=>{
           if(p!=null){
-            alert("Registro Exitoso")
+            const messageBox = this.modalService.open(AlertModalComponent)
+            messageBox.componentInstance.title = "Resultado Operación";
+            messageBox.componentInstance.message = 'Registro Exitoso!!! :-)';
            
             this.pago=p;
           }
@@ -66,8 +68,12 @@ export class PagoRegistroComponent implements OnInit {
           if(p!=null){
             var ide=p.identificacion;
             this.f['identificacion'].setValue(p.identificacion);
-            alert("la persona existe en nuestra base de datos");
+            const messageBox = this.modalService.open(AlertModalComponent)
+            messageBox.componentInstance.title = "Resultado Operación";
+            messageBox.componentInstance.message = 'la persona existe en nuestra base de datos!!! :-)';
+            
           }else{
+            
             if(confirm('¿la persona no existe, desea registrar la persona identificacion ' + this.formGroup.value.identificacion + '?')){
               this.router.navigate(['/', 'clienteRegistro']);
             }
