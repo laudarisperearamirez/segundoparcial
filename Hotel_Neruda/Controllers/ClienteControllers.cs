@@ -28,6 +28,15 @@ namespace Parcial2.Controllers
             var  clientes = _clienteService.ConsultarTodos().Select(p=> new  ClienteViewModel(p));
             return  clientes;
         }
+        // GET: api/clienteControllers/5
+        [HttpGet("{identificacion}")]
+        public ActionResult<ClienteViewModel> Get(string identificacion)
+        {
+            var cliente = _clienteService.BuscarxIdentificacion(identificacion);
+            if (cliente == null) return NotFound();
+            var clienteViewModel = new ClienteViewModel(cliente);
+            return clienteViewModel;
+            }
         // POST: api/cliente
         [HttpPost]
         public ActionResult<ClienteViewModel> Post(ClienteInputModel clienteInput)

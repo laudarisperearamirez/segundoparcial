@@ -36,6 +36,14 @@ import { tap, catchError } from 'rxjs/operators';
       );
 
   }
+  getId(id:string): Observable<Cliente>{
+    return this.http.get<Cliente>(this.baseUrl + 'api/ClienteControllers/' + id)
+    .pipe(
+      tap(_ => this.handleErrorService.log('datos enviados')),
+      catchError(this.handleErrorService.handleError<Cliente>('Consultar Cliente', null))
+      );
+    
+  }
 
   post(cliente: Cliente): Observable<Cliente> {
 

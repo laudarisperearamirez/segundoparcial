@@ -23,6 +23,13 @@ export class PagoService {
     this.baseUrl = baseUrl;
 
   }
+  get(): Observable<Pago[]> {
+    return this.http.get<Pago[]>(this.baseUrl + 'api/pagoControllers')
+        .pipe(
+            tap(_ => this.handleErrorService.log('datos enviados')),
+            catchError(this.handleErrorService.handleError<Pago[]>('Consulta Pagos', null))
+        );
+  }
   post(pago: Pago): Observable<Pago> {
 
     return this.http.post<Pago>(this.baseUrl + 'api/pagoControllers', pago)

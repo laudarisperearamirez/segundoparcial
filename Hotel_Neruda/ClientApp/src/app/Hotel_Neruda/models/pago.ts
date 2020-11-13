@@ -1,7 +1,8 @@
 export class Pago {
     codigo:string;
-    tipoPago:string;
+    tipo:string;
     valorIva:number;
     valorPago:number;
     identificacion:string;
+    fecha:Date;
 }

@@ -11,16 +11,18 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ClienteRegistroComponent } from './Hotel_Neruda/cliente-registro/cliente-registro.component';
 import { ClienteConsultaComponent } from './Hotel_Neruda/cliente-consulta/cliente-consulta.component';
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PagoConsultaComponent } from './hotel_neruda/pago-consulta/pago-consulta.component';
 import { PagoRegistroComponent } from './hotel_neruda/pago-registro/pago-registro.component';
-
+import { AlertModalComponent } from './@base/alert-modal/alert-modal.component';
+import { FiltroPersonaPipe } from './pipe/filtro-persona.pipe';
 @NgModule({
   declarations: [
     AppComponent,
+    AlertModalComponent,
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
@@ -31,9 +33,11 @@ import { PagoRegistroComponent } from './hotel_neruda/pago-registro/pago-registr
     HeaderComponent,
     FooterComponent,
     PagoConsultaComponent,
-    PagoRegistroComponent
+    PagoRegistroComponent,
+    FiltroPersonaPipe
   ],
   imports: [
+    NgbModule,
     ReactiveFormsModule,
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,

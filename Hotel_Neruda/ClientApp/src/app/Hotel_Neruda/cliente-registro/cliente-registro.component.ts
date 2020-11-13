@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import{ClienteService}from'./../../services/cliente.service';
 import{Cliente}from'./../models/cliente';
 
@@ -9,7 +10,7 @@ import{Cliente}from'./../models/cliente';
 })
 export class ClienteRegistroComponent implements OnInit {
 cliente:Cliente;
-  constructor(private clienteService:ClienteService) { }
+  constructor(private router: Router,private clienteService:ClienteService) { }
 
   ngOnInit() {
     this.cliente= new Cliente;
@@ -19,7 +20,9 @@ cliente:Cliente;
 
       if (p != null) {
       
-      alert('Cliente Registrado!');
+        if(confirm('La persona fue registrada exitosamente')){
+          this.router.navigate(['/', 'pagoRegistro']);
+        }
       
       this.cliente = p;
       

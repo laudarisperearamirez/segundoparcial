@@ -1,1 +1,36 @@
-<p>pago-consulta works!</p>
+<div class="rowConsulta">
+  <div class="col-6">
+    <input [(ngModel)]="searchText" type="text" class="form-control" placeholder="Type to filter">
+  </div>
+ </div>
+   
+  
+  <table class="table table-striped" *ngIf='pagos && pagos.length'>
+    <thead>
+      <tr>
+        <th scope="col">No.</th>
+        <th scope="col">Codigo </th>
+        <th scope="col">Identificacion</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Tipo </th>
+        <th scope="col">Valor Pago</th>
+        <th scope="col">Valor Iva</th>
+ 
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pago of pagos|filtroPersona:searchText;index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{pago.codigo}}</td>
+        <td>{{pago.identificacion }}</td>
+        <td>{{pago.fecha | date: 'dd/MM/yyyy'}}</td>
+        <td>{{pago.tipo}}</td>
+        <td>{{pago.valorpago}}</td>
+        <td>{{pago.valoriva}}</td>
+        
+        
+       
+      </tr>
+    </tbody>
+  </table>
