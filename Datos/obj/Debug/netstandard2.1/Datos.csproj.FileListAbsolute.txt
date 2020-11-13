@@ -1,0 +1,24 @@
+F:\HotelNeruda-master\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+F:\HotelNeruda-master\Datos\bin\Debug\netstandard2.1\Datos.dll
+F:\HotelNeruda-master\Datos\bin\Debug\netstandard2.1\Datos.pdb
+F:\HotelNeruda-master\Datos\bin\Debug\netstandard2.1\Entidad.dll
+F:\HotelNeruda-master\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.dll
+F:\HotelNeruda-master\Datos\obj\Debug\netstandard2.1\Datos.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\bin\Debug\netstandard2.1\Datos.deps.json
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\bin\Debug\netstandard2.1\Datos.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\bin\Debug\netstandard2.1\Datos.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\bin\Debug\netstandard2.1\Entidad.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\bin\Debug\netstandard2.1\Entidad.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.csprojAssemblyReference.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfoInputs.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.AssemblyInfo.cs
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.csproj.CoreCompileInputs.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.csproj.CopyComplete
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Datos\obj\Debug\netstandard2.1\Datos.pdb

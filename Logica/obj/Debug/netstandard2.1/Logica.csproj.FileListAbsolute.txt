@@ -1,0 +1,28 @@
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Logica.dll
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Logica.pdb
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Datos.dll
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Entidad.dll
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Datos.pdb
+F:\HotelNeruda-master\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.dll
+F:\HotelNeruda-master\Logica\obj\Debug\netstandard2.1\Logica.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Logica.deps.json
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Logica.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Logica.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Datos.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Entidad.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Datos.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\bin\Debug\netstandard2.1\Entidad.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.csprojAssemblyReference.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfoInputs.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.AssemblyInfo.cs
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.csproj.CoreCompileInputs.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.csproj.CopyComplete
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Logica\obj\Debug\netstandard2.1\Logica.pdb

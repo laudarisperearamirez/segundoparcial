@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kLW3VY+iZTAewEGfOi9CTtRgI6o50STYSgvO/M9Jm66j/saX4g00ZshH5POtZwAjoVuhyazp6tizbOGowRRWbg==",
+  "success": true,
+  "projectFilePath": "D:\\Pack Prog Web\\SegundoParcial\\HotelNerudaORM\\Entidad\\Entidad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LAUDARIS\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+F:\HotelNeruda-master\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+F:\HotelNeruda-master\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+F:\HotelNeruda-master\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+F:\HotelNeruda-master\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+F:\HotelNeruda-master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+F:\HotelNeruda-master\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+F:\HotelNeruda-master\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+F:\HotelNeruda-master\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+F:\HotelNeruda-master\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\bin\Debug\netstandard2.1\Entidad.deps.json
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\bin\Debug\netstandard2.1\Entidad.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\bin\Debug\netstandard2.1\Entidad.pdb
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\obj\Debug\netstandard2.1\Entidad.csprojAssemblyReference.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfoInputs.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\obj\Debug\netstandard2.1\Entidad.AssemblyInfo.cs
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\obj\Debug\netstandard2.1\Entidad.csproj.CoreCompileInputs.cache
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\obj\Debug\netstandard2.1\Entidad.dll
+D:\Pack Prog Web\SegundoParcial\HotelNerudaORM\Entidad\obj\Debug\netstandard2.1\Entidad.pdb
